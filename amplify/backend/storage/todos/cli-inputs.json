@@ -1,0 +1,14 @@
+{
+  "resourceName": "todos",
+  "tableName": "todosTable",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "title",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
